@@ -1,0 +1,36 @@
+/* p{
+    background-color: bisque !important;
+} */
+
+/* Universal Selector */
+
+/* *{
+    color: blanchedalmond;
+} */
+
+
+/* Type Selector */
+/* h1,h2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+
+/* Class Selector */
+/* p.abc{
+    font-weight: 800;
+} */
+
+
+/* id Selector */
+/* #inter{
+    font-size: 50px;
+} */
+
+
+/* Child Selector */
+/* li>a{
+font-size: larger;
+} */
+
+/* Descendant Selector */
