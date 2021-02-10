@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            height: 3vw;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+            font-size: 4vh;
+        }
+
+p{
+    width: 100%;
+}
+        ::placeholder {
+            font-size: 2vh;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <table style="width: 50%; height: 800; max-height: 100;">
+            <tr>
+                <td style="background-color:darkseagreen;">Step 1: Account</td>
+                <td style="background-color: darkseagreen;">Step 2: Personal Details</td>
+                <td style="background-color: cornflowerblue;">Step 3: Your Review</td>
+            </tr>
+        </table>
+        <br><br>
+        <form action="index.html" >
+            <fieldset style="width: 48%;" >
+                <legend><h2>Your Review:</h2></legend>
+                <p style="float: left; text-align: left; font-size: 1.5vw;"> How did you hear about us? 
+                    <select name="about">
+                        <option value="option" selected>Select your option</option>
+                        <option value="Whatsapp">Whatsapp</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Youtube">Youtube</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </p>
+                <p style="float: left; text-align: left; font-size: 1.5vw;">Would you visit again?  <br>
+                    <input type="radio" name="again" value="yes">Yes
+                    <input type="radio" name="again" value="no" >No
+                    <input type="radio" name="again" value="maybe">Maybe
+                </p>
+                <p style="float: left; text-align: left; font-size: 1.5vw;">Comments: <br>
+                    <textarea cols="40" rows="5">Enter your comments here</textarea>
+                   
+                </p>
+                <p style="float: left; text-align: left; font-size: 1.5vw;"> Documents:
+                    <br>
+                  <input type="file" ><br><br>
+                  <input type="checkbox" checked>Sign me up for email updates
+                </p>
+                <!-- <p style="float: left; text-align: left; font-size: 1.5vw;">
+                    <br>
+                  
+
+                </p> -->
+                <a href="step2.html">
+                    <img src="Images/back.png" alt="" width="20%"></a><a href="index.html"> <img src="Images/submit.png" alt="" width="20%"></a>
+            </fieldset>
+        </form>
+       </center>
+</body>
+</html>

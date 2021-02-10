@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        td{
+            height: 3vw;
+            align-items: center;
+            text-align: center;
+            font-weight:bold;
+            font-size:4vh;
+        }
+        input{
+            height: 20px;
+        }
+        ::placeholder{
+            font-size: 2vh;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table  style="width: 50%; height: 800; max-height: 100;">
+        <tr>
+            <td style="background-color: cornflowerblue;">Step 1: Account</td>
+            <td style="background-color: darkgray;">Step 2: Personal Details</td>
+            <td style="background-color: darkgray;">Step 3: Your Review</td>
+        </tr>
+    </table>
+    <br><br>
+    <form action="step2.html" >
+        <fieldset style="width: 48%;" >
+            <legend><h2> Account</h2></legend>
+            <p style="float: left; text-align: left; font-size: 1.5vw;"> Email Address: <br>
+                <input type="email" name="email" size="90" placeholder="Enter Email" required>
+            </p>
+            <p style="float: left; text-align: left; font-size: 1.5vw;"> Password: <br>
+                <input type="password" name="pass" size="90" height="55vh" placeholder="Enter Password" required>
+            </p>
+            <p style="float: left; text-align: left; font-size: 1.5vw;">Confirm Password: <br>
+                <input type="password" name="pass" size="90" height="55vh" placeholder="Confirm Password" required>
+            </p>
+            <p style="float: left; text-align: left; font-size: 1.5vw;">
+                <a href="index.html">
+            <img src="Images/back.png" alt="" width="20%"></a><a href="step2.html"> <img src="Images/next.png" alt="" width="20%"></a>
+            </p>
+        </fieldset>
+    </form>
+   </center>
+
+</body>
+</html>
