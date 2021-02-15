@@ -1,0 +1,180 @@
+.navi {
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 26px;
+  }
+ 
+  .center {
+    display: block;
+    margin-left: 550px;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
+  ul {
+    float: left;
+    margin: 0px;
+    margin-left: 400px;
+    padding: 0px;
+    list-style: none;
+    height: 26px;
+    line-height: 26px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    display: inline;
+  }
+ 
+  li {
+    /* border-right: 1px solid #156ee2; */
+    float: left;
+    display: inline;
+  }
+ 
+  a {
+    display: inline;
+    padding: 0 26px;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  /* a:hover{
+   background-color: #156ee2;
+ 
+ } */
+ 
+  .active a {
+    background-color: #156ee2;
+  }
+ 
+  #caption {
+    text-transform: uppercase;
+    text-align: center;
+    color: lightgrey;
+  }
+ 
+  /* another nav bar */
+ 
+  .navi2 {
+    align-items: left;
+    background-color: white;
+    width: auto;
+    height: 26px;
+  }
+ 
+  .white {
+    float: left;
+    margin: 0px;
+    /* uses to left to right align */
+    margin-left: 0px;
+    padding: 0px;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    display: inline;
+  }
+ 
+  .navi2 a {
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+ 
+  .navi2 input {
+    border-style: none;
+    border: snow;
+    display: inline;
+    color: black;
+    text-decoration: none;
+  }
+ 
+  .navi2 a:hover {
+    background-color: lightgrey;
+    opacity: 0.2;
+    transition: 2000ms;
+  }
+ 
+  /*  Paragrapgh Heading*/
+ 
+  .heading {
+    font-size: 34px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+ 
+  hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid grey;
+  }
+ 
+  figcaption {
+    color: grey;
+  }
+ 
+  #left {
+    margin-left: 129px;
+    line-height: 1.9em;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+  }
+ 
+  #left1 {
+    margin-left: 129px;
+    line-height: 1.9em;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+  }
+ #left2{
+    margin-left: 129px;
+    line-height: 1.9em;
+    font-weight: bold;
+    font-size: 20px;
+     text-align: justify;
+ }
+  div {
+    height: 850px;
+    width: 850px;
+    align-items: center;
+  }
+ 
+  .brown {
+    color: brown;
+  }
+ 
+  .font {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 120px;
+  }
+ 
+  /* Button CSS  */
+ 
+  .button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    margin-left: 660px;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+ 
+  .button:hover {
+    background-color: lightgrey;
+    transition: 10s;
+  }
+ 
+  .contact {
+    text-align: center;
+    color: gray;
+  }
