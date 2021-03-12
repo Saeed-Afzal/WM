@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    background-color:navajowhite;
+}
+
+#header{
+    background-color:coral;
+    text-align: center;
+    word-spacing: 30px;
+    height: 35px;
+    align-items: center;
+    padding-top: 12px;
+    position:sticky;
+}
+img{
+    align-items: left;
+}
+a{
+    text-decoration: none;
+color: white;
+}
+a:hover{
+color: darkviolet;
+}
+.im{
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+table{
+    background-color: white;
+    width: 100%;
+    border-color:coral;
+    text-align: center;
+    align-items: center;
+}
+th{
+    color: green;
+    height: 90px;
+    font-size: 30pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cent{
+    width: 650px;
+}
+.up{
+    color: indigo;
+    font-size: 15pt;
+}
+td{
+  margin: 0; 
+}
+
+.hea{
+    font-size: 25pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1em;
+    color: indigo;
+}
+.bol{
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+
+}
+hr{
+    width: 80;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    background-color: black;
+}

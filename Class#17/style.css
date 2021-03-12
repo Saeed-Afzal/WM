@@ -1,0 +1,23 @@
+nav{
+    display: inline;
+    text-decoration: none;
+    background-color: tomato;
+    margin: 15px;
+}
+
+
+
+.bord{
+    border: 10px solid transparent;
+    border-image:url("border1.png") 50 round;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+/* ul { 
+    list-style-image: url("star.png") ;
+    background-size: 25px;
+} */
+li { margin: 10px 0px 0px 0px;}
